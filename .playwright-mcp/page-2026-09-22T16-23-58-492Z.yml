@@ -1,0 +1,82 @@
+- generic [active] [ref=f61e1]:
+  - status [ref=f61e2]: "Chapter 10 of 14: digital dna"
+  - navigation "Primary" [ref=f61e3]:
+    - generic [ref=f61e4]: somewhere
+    - list [ref=f61e5]:
+      - listitem [ref=f61e6]: Explore
+      - listitem [ref=f61e7]: NFFC
+      - listitem [ref=f61e8]: Collections
+      - listitem [ref=f61e9]: About
+      - listitem [ref=f61e10]: Connect
+  - generic:
+    - generic: 10 / 14 — digital-dna
+    - text: p = 1.00
+  - generic:
+    - generic: COORD-0.146, 0.249, 0.112
+    - generic: HASH4C619EDC
+  - generic:
+    - generic:
+      - paragraph: 01 — THE SINGULARITY
+      - heading "Everything begins somewhere." [level=2]
+    - generic:
+      - paragraph: 02 — THE BIG BANG
+      - heading "Then everything changed." [level=2]
+    - generic:
+      - heading "The universe expanded." [level=2]
+    - generic:
+      - paragraph: 03 — THE NEBULA
+      - heading "Digital matter began to form." [level=2]
+    - generic:
+      - heading "Collections emerged." [level=2]
+    - generic:
+      - heading "04 — THE GALAXIES" [level=2]
+    - generic:
+      - heading "05 — THE CHAINS" [level=2]
+    - generic:
+      - paragraph: 06 — THE UNIVERSE
+      - heading "A universe of digital ownership." [level=2]
+    - generic:
+      - heading "Across every chain." [level=2]
+    - generic:
+      - heading "…and beyond." [level=2]
+    - generic:
+      - heading "somewhere" [level=2]
+      - paragraph: Discover NFTs. Across every chain — and beyond.
+    - generic:
+      - paragraph: 07 — NFFC
+      - heading "NonFungible Financial Collectibles" [level=2]
+    - generic:
+      - heading "Not every collectible is just a collectible." [level=2]
+    - generic:
+      - heading "Some are built around entire ecosystems of assets." [level=2]
+    - generic:
+      - heading "08 — THE INDEX" [level=2]
+    - generic:
+      - heading "09 — NON-FUNGIBLE" [level=2]
+    - generic:
+      - paragraph: 10 — DIGITAL DNA
+      - heading "Every collectible has structure." [level=2]
+  - generic:
+    - generic: ETHEREUM
+    - generic: SOLANA
+    - generic: BSC
+    - generic: ROBINHOOD
+  - generic:
+    - generic:
+      - generic: BTC
+      - generic: 32%
+    - generic:
+      - generic: ETH
+      - generic: 24%
+    - generic:
+      - generic: SOL
+      - generic: 18%
+    - generic:
+      - generic: TOKENIZED EQUITIES
+      - generic: 16%
+    - generic:
+      - generic: STABLE ASSETS
+      - generic: 10%
+    - generic: Illustrative data
+  - button "Open Next.js Dev Tools" [ref=f61e16] [cursor=pointer]
+  - alert [ref=f61e20]

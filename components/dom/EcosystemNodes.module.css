@@ -1,0 +1,134 @@
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.connectorSvg {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.connectorPath {
+  fill: none;
+  stroke: WHITE;
+  stroke-width: 1.5;
+  opacity: 0;
+}
+
+.connectorNode {
+  fill: WHITE;
+  opacity: 0;
+}
+
+.anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  opacity: 0;
+}
+
+/* Caja HUD: esquinas tipo bracket (marcas en L), no un borde completo —
+   lenguaje visual de panel técnico sin encerrar el logo en una chapa sólida.
+   Tonos cian/azules del proyecto, nunca el blanco/negro de alto contraste de
+   una referencia de maqueta. */
+.hudBox {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corner {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border: 1.5px solid WHITE;
+  opacity: 0.8;
+}
+
+.cornerTL {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.cornerTR {
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.cornerBL {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+
+.cornerBR {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35)) drop-shadow(0 2px 10px rgba(5, 5, 12, 0.8));
+}
+
+/* Robinhood (sin logo, ver data/chains.js): el símbolo hace de icono. */
+.fallbackSymbol {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: var(--foreground);
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}
+
+.microLabel {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  color: var(--accent-cyan);
+  text-shadow: 0 1px 4px rgba(5, 5, 12, 0.9);
+  white-space: nowrap;
+}
+
+/* Marca central: rótulo fijo entre los dos cúmulos, nunca origen de
+   conectores — no se proyecta vía cameraBridge, su posición fija en
+   pantalla ya la sitúa "en medio" mientras ambas galaxias quedan simétricas
+   a los lados. Ya no es una tarjeta con texto: es el símbolo de marca
+   (public/logo-mark.png), sin caja/fondo detrás. */
+.centerCard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.centerMark {
+  width: 56px;
+  height: auto;
+  filter: drop-shadow(0 0 16px rgba(175, 80, 229, 0.5)) drop-shadow(0 2px 12px rgba(5, 5, 12, 0.8));
+}

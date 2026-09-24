@@ -1,0 +1,40 @@
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.bubble {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  padding: 0.4em 0.75em;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--foreground-muted);
+  background: rgba(20, 20, 31, 0.35);
+  border: 1px solid rgba(175, 80, 229, 0.35);
+  border-radius: 2px;
+  box-shadow: 0 0 12px rgba(81, 66, 252, 0.25);
+  white-space: nowrap;
+  animation: drift 6s ease-in-out infinite;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bubble {
+    animation: none;
+  }
+}

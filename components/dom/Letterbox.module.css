@@ -1,0 +1,18 @@
+.bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 0;
+  background: #000000;
+  z-index: 20;
+  pointer-events: none;
+  will-change: height;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}

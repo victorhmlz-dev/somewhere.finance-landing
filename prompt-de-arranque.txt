@@ -1,0 +1,17 @@
+Lee CLAUDE.md y docs/SCROLLYTELLING_BRIEF.md por completo.
+
+FASE 1 — AUDITORÍA. Solo lectura, sin modificar archivos.
+
+Analiza el proyecto y devuélveme:
+1. Stack real: framework, versiones de Next.js y React, router, lenguaje, sistema de estilos, dependencias, estructura de carpetas.
+2. Qué se puede reutilizar (componentes, tokens, layout, navegación) y qué habría que modificar.
+3. Dependencias que faltan (three, @react-three/fiber, drei, gsap, postprocessing, etc.). Para cada una: por qué, alternativa sin dependencia, peso aproximado y compatibilidad con mis versiones de React/Next (verifica con Context7).
+4. Propuesta de arquitectura de carpetas adaptada a la existente: canvas persistente, scroll engine, chapter registry, coreografías por capítulo, datos, estilos.
+5. Cómo separarías WebGL de DOM y cómo pasarías el progreso de scroll a la escena sin re-renders de React.
+6. Cómo implementarías la visualización del NFFC (sistema orbital, recomposición por scroll, ficha, doble hélice).
+7. Riesgos técnicos (rendimiento, móvil, SSR en Next, WebGL en headless, accesibilidad, reduced motion) y cómo los mitigarías.
+8. Preguntas o decisiones que necesites de mí (fuentes, tema oscuro forzado en la escena, smooth scroll, etc.).
+
+Termina con el plan de fases (2 a 6) con criterios de aceptación.
+
+DETENTE ahí y espera mi aprobación. No empieces a implementar.

@@ -1,0 +1,22 @@
+:root {
+  --background: #14141f;
+  --surface: #343444;
+  --surface-muted: #262633;
+  --foreground: #ffffff;
+  --foreground-muted: #bdbdbd;
+  --primary: #5142fc;
+  --primary-dark: #372e9d;
+  --accent: #af50e5;
+  --border: #343444;
+
+  /* Acentos puntuales (ronda de revisión creativa del Acto I): nunca la
+     base de la paleta, solo destellos aislados donde el blanco/--primary/
+     --accent no basta para leer una señal concreta — pulsos de actividad
+     de mercado (verde) y líneas de conexión de datos (cian). Ver
+     docs/SCROLLYTELLING_BRIEF.md, sección Paleta, para el uso previsto. */
+  --accent-green: #22c55e;
+  --accent-cyan: #22d3ee;
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", monospace;
+}

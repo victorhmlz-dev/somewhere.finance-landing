@@ -1,0 +1,30 @@
+.canvasWrapper {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.canvasWrapper canvas {
+  display: block;
+}
+
+/* Resplandor difuso de fondo: tinte estático, barato (CSS puro, sin draw
+   calls), en vez de un plano 3D — un plano billboard cerca del origen
+   llenaba todo el encuadre al variar tanto la distancia de cámara (z 8-52)
+   entre actos. */
+.ambientGlow {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  background: radial-gradient(
+    circle at 50% 46%,
+    rgba(81, 66, 252, 0.16) 0%,
+    rgba(175, 80, 229, 0.07) 35%,
+    rgba(20, 20, 31, 0) 70%
+  );
+}

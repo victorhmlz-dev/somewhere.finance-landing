@@ -1,0 +1,71 @@
+/* justify-content: flex-start + padding-top (en vez de center) — el punto
+   de luz de la convergencia (UniverseParticles.jsx) queda en el centro
+   vertical de la pantalla; este bloque entero se coloca DEBAJO de él, no
+   superpuesto. */
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 58vh;
+  gap: 1.1rem;
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.logo {
+  width: min(85vw, 440px);
+  height: auto;
+  filter: drop-shadow(0 4px 30px rgba(5, 5, 12, 0.7));
+}
+
+.tagline {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: clamp(0.9rem, 1.8vw, 1.15rem);
+  color: var(--foreground-muted);
+  text-shadow: 0 2px 16px rgba(5, 5, 12, 0.9);
+}
+
+/* Único elemento realmente interactivo de toda la experiencia: enfocable
+   por teclado, con hover/focus reales — no un div con estilo. */
+.cta {
+  pointer-events: auto;
+  margin-top: 0.6rem;
+  padding: 0.8em 1.8em;
+  border: 1px solid var(--primary);
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  color: var(--foreground);
+  background: rgba(81, 66, 252, 0.12);
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta:hover {
+  background: rgba(81, 66, 252, 0.28);
+  border-color: var(--accent);
+}
+
+.cta:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.cta:active {
+  transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta {
+    transition: none;
+  }
+}

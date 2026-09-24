@@ -1,0 +1,49 @@
+.layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, 12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  opacity: 0;
+}
+
+.iconBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  /* Chip oscuro fijo detrás del icono: el drop-shadow solo no basta cuando
+     el fondo es una zona quemada de bloom (blanco/muy claro) en vez de
+     espacio oscuro — esto garantiza contraste en los dos casos. */
+  background: rgba(5, 5, 12, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--foreground);
+  text-shadow: 0 2px 16px rgba(5, 5, 12, 0.9), 0 1px 3px rgba(5, 5, 12, 0.95);
+  white-space: nowrap;
+}

@@ -1,0 +1,106 @@
+- generic [active] [ref=f101e1]:
+  - status [ref=f101e2]: "Chapter 1 of 14: the singularity"
+  - navigation "Primary" [ref=f101e6]:
+    - generic [ref=f101e7]: somewhere
+    - list [ref=f101e8]:
+      - listitem [ref=f101e9]: Explore
+      - listitem [ref=f101e10]: NFFC
+      - listitem [ref=f101e11]: Collections
+      - listitem [ref=f101e12]: About
+      - listitem [ref=f101e13]: Connect
+  - generic:
+    - generic: 01 / 14 — the-singularity
+    - text: p = 0.00
+  - generic:
+    - generic: COORD0.783, -0.583, -0.473
+    - generic: HASH1883DF3A
+  - generic:
+    - generic:
+      - paragraph: 01 — THE SINGULARITY
+      - heading "Everything begins somewhere." [level=2]
+    - generic:
+      - paragraph: 02 — THE BIG BANG
+      - heading "Then everything changed." [level=2]
+    - generic:
+      - heading "The universe expanded." [level=2]
+    - generic:
+      - paragraph: 03 — THE NEBULA
+      - heading "Digital matter began to form." [level=2]
+    - generic:
+      - heading "Collections emerged." [level=2]
+    - generic:
+      - heading "04 — THE GALAXIES" [level=2]
+    - generic:
+      - heading "05 — THE CHAINS" [level=2]
+    - generic:
+      - paragraph: 06 — THE UNIVERSE
+      - heading "A universe of digital ownership." [level=2]
+    - generic:
+      - heading "Across every chain." [level=2]
+    - generic:
+      - heading "…and beyond." [level=2]
+    - generic:
+      - heading "somewhere" [level=2]
+      - paragraph: Discover NFTs. Across every chain — and beyond.
+    - generic:
+      - paragraph: 07 — NFFC
+      - heading "NonFungible Financial Collectibles" [level=2]
+    - generic:
+      - heading "Not every collectible is just a collectible." [level=2]
+    - generic:
+      - heading "Some are built around entire ecosystems of assets." [level=2]
+    - generic:
+      - heading "08 — THE INDEX" [level=2]
+    - generic:
+      - heading "09 — NON-FUNGIBLE" [level=2]
+    - generic:
+      - paragraph: 10 — DIGITAL DNA
+      - heading "Every collectible has structure." [level=2]
+    - generic:
+      - heading "11 — THE MARKET MOVES" [level=2]
+    - generic:
+      - paragraph: 12 — YOUR UNIVERSE
+      - heading "Your assets." [level=2]
+    - generic:
+      - heading "Your universe." [level=2]
+    - generic:
+      - paragraph: 13 — ONE UNIVERSE
+      - heading "Different chains. One universe." [level=2]
+  - generic:
+    - generic: ETHEREUM
+    - generic: SOLANA
+    - generic: BSC
+    - generic: ROBINHOOD
+  - generic:
+    - generic:
+      - generic: BTC
+      - generic: 32%
+    - generic:
+      - generic: ETH
+      - generic: 24%
+    - generic:
+      - generic: SOL
+      - generic: 18%
+    - generic:
+      - generic: TOKENIZED EQUITIES
+      - generic: 16%
+    - generic:
+      - generic: STABLE ASSETS
+      - generic: 10%
+    - generic: Illustrative data
+  - generic:
+    - generic:
+      - generic: NFTS
+      - generic: 34%
+    - generic:
+      - generic: COLLECTIONS
+      - generic: 26%
+    - generic:
+      - generic: NFFCS
+      - generic: 22%
+    - generic:
+      - generic: CHAINS
+      - generic: 18%
+    - generic: Illustrative data
+  - button "Open Next.js Dev Tools" [ref=f101e19] [cursor=pointer]
+  - alert [ref=f101e23]

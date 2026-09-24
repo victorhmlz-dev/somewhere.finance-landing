@@ -1,0 +1,19 @@
+[     109ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     129ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     379ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  106083ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  106114ms] TypeError: Cannot read properties of undefined (reading '0')
+    at OrbitalRingLabels.useEffect.tick (http://localhost:3000/_next/static/chunks/_1zxctd_._.js?id=%255Bproject%255D/components/dom/OrbitalRingLabels.jsx+%255Bapp-client%255D+(ecmascript):80:51)
+    at Array.forEach (<anonymous>)
+    at OrbitalRingLabels.useEffect.tick (http://localhost:3000/_next/static/chunks/_1zxctd_._.js?id=%255Bproject%255D/components/dom/OrbitalRingLabels.jsx+%255Bapp-client%255D+(ecmascript):76:27)
+[  106115ms] TypeError: Cannot read properties of undefined (reading '0')
+    at OrbitalRingLabels.useEffect.tick (http://localhost:3000/_next/static/chunks/_1zxctd_._.js?id=%255Bproject%255D/components/dom/OrbitalRingLabels.jsx+%255Bapp-client%255D+(ecmascript):80:51)
+    at Array.forEach (<anonymous>)
+    at OrbitalRingLabels.useEffect.tick (http://localhost:3000/_next/static/chunks/_1zxctd_._.js?id=%255Bproject%255D/components/dom/OrbitalRingLabels.jsx+%255Bapp-client%255D+(ecmascript):76:27)
+[  106199ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  106286ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  106334ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  125115ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  126074ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  126167ms] [LOG] [Fast Refresh] done in 15ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  126243ms] [LOG] [Fast Refresh] done in 15ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

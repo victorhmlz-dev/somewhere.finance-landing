@@ -1,0 +1,163 @@
+[      48ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     172ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     187ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     376ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  169632ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  169937ms] [LOG] [Fast Refresh] done in 414ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  190266ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  191047ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  191047ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  198968ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  199464ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  199481ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js?id=%255Bproject%255D/components/canvas/PostFX.jsx+%255Bapp-client%255D+(ecmascript):114:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8269:165)
+    at Ls (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12222:51)
+    at Object.hu [as scheduleRefresh] (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:6622:71)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:589:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:582:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:137:31)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:145:13
+[  199512ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js?id=%255Bproject%255D/components/canvas/PostFX.jsx+%255Bapp-client%255D+(ecmascript):114:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Ap (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8325:35)
+    at Wa (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8269:165)
+    at Ls (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12222:51)
+    at Object.hu [as scheduleRefresh] (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:6622:71)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:589:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:582:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:137:31)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js:145:13
+[  199513ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  200097ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205574ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205578ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205620ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205654ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205662ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205690ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js?id=%255Bproject%255D/components/canvas/PostFX.jsx+%255Bapp-client%255D+(ecmascript):105:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Tu (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8321:129)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_0ed--ob._.js:369:64)
+[  205695ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js?id=%255Bproject%255D/components/canvas/PostFX.jsx+%255Bapp-client%255D+(ecmascript):105:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Tu (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8321:129)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_0ed--ob._.js:369:64)
+[  205713ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205843ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  205857ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  206033ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  206066ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js:514:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Tu (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8321:129)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_0ed--ob._.js:369:64)
+[  206075ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js:514:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Tu (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8321:129)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_0ed--ob._.js:369:64)
+[  206609ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212258ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212348ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212363ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212640ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212668ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js:508:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Tu (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8321:129)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_0ed--ob._.js:369:64)
+[  212677ms] ReferenceError: LensFlare is not defined
+    at PostFX (http://localhost:3000/_next/static/chunks/_0fr7l8t._.js:508:363)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:13238:32)
+    at It (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:9107:25)
+    at ks (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10227:374)
+    at tt (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:10558:32)
+    at B (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:7924:70)
+    at Ph (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12450:50)
+    at wh (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12367:36)
+    at Ff (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12358:21)
+    at Lf (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:12129:75)
+    at Tu (http://localhost:3000/_next/static/chunks/node_modules_%40react-three_fiber_dist_0oawuuz._.js:8321:129)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/node_modules_0ed--ob._.js:369:64)
+[  213204ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218515ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218518ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218519ms] [LOG] [Fast Refresh] done in 9ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218568ms] [LOG] [Fast Refresh] done in 9ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218634ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218647ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  218908ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  223951ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  224093ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  224785ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  228187ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  228778ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  233477ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  233963ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  234015ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  234041ms] [LOG] [Fast Refresh] done in 13ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

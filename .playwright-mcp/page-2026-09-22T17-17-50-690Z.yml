@@ -1,0 +1,194 @@
+- generic [active] [ref=f85e1]:
+  - status [ref=f85e2]: "Chapter 11 of 14: the market moves"
+  - navigation "Primary" [ref=f85e6]:
+    - generic [ref=f85e7]: somewhere
+    - list [ref=f85e8]:
+      - listitem [ref=f85e9]: Explore
+      - listitem [ref=f85e10]: NFFC
+      - listitem [ref=f85e11]: Collections
+      - listitem [ref=f85e12]: About
+      - listitem [ref=f85e13]: Connect
+  - generic:
+    - generic: 11 / 14 — the-market-moves
+    - text: p = 0.00
+  - generic:
+    - generic: COORD-0.562, -0.535, 0.165
+    - generic: HASH768FFB3B
+  - generic:
+    - generic:
+      - paragraph: 01 — THE SINGULARITY
+      - heading "Everything begins somewhere." [level=2]
+    - generic:
+      - paragraph: 02 — THE BIG BANG
+      - heading "Then everything changed." [level=2]
+    - generic:
+      - heading "The universe expanded." [level=2]
+    - generic:
+      - paragraph: 03 — THE NEBULA
+      - heading "Digital matter began to form." [level=2]
+    - generic:
+      - heading "Collections emerged." [level=2]
+    - generic:
+      - heading "04 — THE GALAXIES" [level=2]
+    - generic:
+      - heading "05 — THE CHAINS" [level=2]
+    - generic:
+      - paragraph: 06 — THE UNIVERSE
+      - heading "A universe of digital ownership." [level=2]
+    - generic:
+      - heading "Across every chain." [level=2]
+    - generic:
+      - heading "…and beyond." [level=2]
+    - generic:
+      - heading "somewhere" [level=2]
+      - paragraph: Discover NFTs. Across every chain — and beyond.
+    - generic:
+      - paragraph: 07 — NFFC
+      - heading "NonFungible Financial Collectibles" [level=2]
+    - generic:
+      - heading "Not every collectible is just a collectible." [level=2]
+    - generic:
+      - heading "Some are built around entire ecosystems of assets." [level=2]
+    - generic:
+      - heading "08 — THE INDEX" [level=2]
+    - generic:
+      - heading "09 — NON-FUNGIBLE" [level=2]
+    - generic:
+      - paragraph: 10 — DIGITAL DNA
+      - heading "Every collectible has structure." [level=2]
+    - generic:
+      - heading "11 — THE MARKET MOVES" [level=2]
+    - generic:
+      - paragraph: 12 — YOUR UNIVERSE
+      - heading "Your assets." [level=2]
+    - generic:
+      - heading "Your universe." [level=2]
+    - generic:
+      - paragraph: 13 — ONE UNIVERSE
+      - heading "Different chains. One universe." [level=2]
+  - generic:
+    - generic: ETHEREUM
+    - generic: SOLANA
+    - generic: BSC
+    - generic: ROBINHOOD
+  - generic:
+    - generic:
+      - generic: BTC
+      - generic: 32%
+    - generic:
+      - generic: ETH
+      - generic: 24%
+    - generic:
+      - generic: SOL
+      - generic: 18%
+    - generic:
+      - generic: TOKENIZED EQUITIES
+      - generic: 16%
+    - generic:
+      - generic: STABLE ASSETS
+      - generic: 10%
+    - generic: Illustrative data
+  - generic:
+    - generic:
+      - generic: NFTS
+      - generic: 34%
+    - generic:
+      - generic: COLLECTIONS
+      - generic: 26%
+    - generic:
+      - generic: NFFCS
+      - generic: 22%
+    - generic:
+      - generic: CHAINS
+      - generic: 18%
+    - generic: Illustrative data
+  - generic:
+    - generic:
+      - generic:
+        - term: Volume (24h)
+        - definition: 482.3K
+      - generic:
+        - term: Sales (24h)
+        - definition: "128"
+      - generic:
+        - term: Holders
+        - definition: "946"
+      - generic:
+        - term: Floor
+        - definition: 0.42 ETH
+    - paragraph: Illustrative data
+  - button "Open Next.js Dev Tools" [ref=f85e19] [cursor=pointer]
+  - alert [ref=f85e23]
+  - generic [ref=f85e24]:
+    - generic [ref=f85e25]:
+      - generic [ref=f85e26] [cursor=pointer]
+      - generic [ref=f85e37] [cursor=pointer]
+    - textbox "[Open filter with CMD+SHIFT+L]" [ref=f85e41]
+    - generic [ref=f85e43]:
+      - generic [ref=f85e44]:
+        - generic [ref=f85e45] [cursor=pointer]: Bloom
+        - generic [ref=f85e50]:
+          - generic [ref=f85e52]:
+            - generic [ref=f85e53]:
+              - generic "intensity" [ref=f85e54]
+              - generic "Click to copy intensity value"
+            - generic [ref=f85e55]:
+              - generic [ref=f85e56] [cursor=pointer]
+              - textbox "intensity" [ref=f85e61]: "0.50"
+          - generic [ref=f85e63]:
+            - generic [ref=f85e64]:
+              - generic "threshold" [ref=f85e65]
+              - generic "Click to copy threshold value"
+            - generic [ref=f85e66]:
+              - generic [ref=f85e67] [cursor=pointer]
+              - textbox "threshold" [ref=f85e72]: "0.40"
+      - generic [ref=f85e73]:
+        - generic [ref=f85e74] [cursor=pointer]: Viñeta
+        - generic [ref=f85e81]:
+          - generic [ref=f85e82]:
+            - generic "darkness" [ref=f85e83]
+            - generic "Click to copy darkness value"
+          - generic [ref=f85e84]:
+            - generic [ref=f85e85] [cursor=pointer]
+            - textbox "darkness" [ref=f85e90]: "0.55"
+      - generic [ref=f85e91]:
+        - generic [ref=f85e92] [cursor=pointer]: Singularity
+        - generic [ref=f85e97]:
+          - generic [ref=f85e99]:
+            - generic [ref=f85e100]:
+              - generic "growthPower" [ref=f85e101]
+              - generic "Click to copy growthPower value"
+            - generic [ref=f85e102]:
+              - generic [ref=f85e103] [cursor=pointer]
+              - textbox "growthPower" [ref=f85e108]: "2.0"
+          - generic [ref=f85e110]:
+            - generic [ref=f85e111]:
+              - generic "inhaleStart" [ref=f85e112]
+              - generic "Click to copy inhaleStart value"
+            - generic [ref=f85e113]:
+              - generic [ref=f85e114] [cursor=pointer]
+              - textbox "inhaleStart" [ref=f85e119]: "0.83"
+          - generic [ref=f85e121]:
+            - generic [ref=f85e122]:
+              - generic "inhaleStrength" [ref=f85e123]
+              - generic "Click to copy inhaleStrength value"
+            - generic [ref=f85e124]:
+              - generic [ref=f85e125] [cursor=pointer]
+              - textbox "inhaleStrength" [ref=f85e130]: "0.55"
+      - generic [ref=f85e131]:
+        - generic [ref=f85e132] [cursor=pointer]: Big Bang
+        - generic [ref=f85e137]:
+          - generic [ref=f85e139]:
+            - generic [ref=f85e140]:
+              - generic "easePower" [ref=f85e141]
+              - generic "Click to copy easePower value"
+            - generic [ref=f85e142]:
+              - generic [ref=f85e143] [cursor=pointer]
+              - textbox "easePower" [ref=f85e148]: "4.0"
+          - generic [ref=f85e150]:
+            - generic [ref=f85e151]:
+              - generic "shakeMagnitude" [ref=f85e152]
+              - generic "Click to copy shakeMagnitude value"
+            - generic [ref=f85e153]:
+              - generic [ref=f85e154] [cursor=pointer]
+              - textbox "shakeMagnitude" [ref=f85e159]: "0.22"

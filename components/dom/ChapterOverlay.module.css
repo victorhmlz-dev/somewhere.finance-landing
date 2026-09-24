@@ -1,0 +1,19 @@
+.overlay {
+  position: fixed;
+  left: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 10;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--foreground-muted);
+  pointer-events: none;
+}
+
+.chapter {
+  color: var(--foreground);
+  letter-spacing: 0.05em;
+}
+
+.progress {
+  color: var(--primary);
+}

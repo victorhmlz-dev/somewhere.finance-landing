@@ -1,0 +1,88 @@
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  padding: 0 1.25rem;
+}
+
+.card {
+  margin: 0;
+  width: min(92vw, 30rem);
+  /* Opacidad alta a propósito: con el sistema orbital detrás en movimiento,
+     un fondo más transparente deja que el brillo de las partículas se cuele
+     a través del blur y se lea como manchas/texto fantasma bajo los datos. */
+  background: rgba(15, 15, 23, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+  padding: 1.4rem 1.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row dt {
+  color: var(--foreground-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.row dd {
+  margin: 0;
+  color: var(--foreground);
+  text-align: right;
+}
+
+.statusActive {
+  color: var(--accent);
+}
+
+.statusLocked {
+  color: var(--foreground-muted);
+}
+
+.history {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.history li {
+  font-size: 0.72rem;
+  color: var(--foreground-muted);
+}
+
+.disclaimer {
+  margin: 0.75rem 0 0;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--foreground-muted);
+}
+
+@media (max-width: 640px) {
+  .card {
+    font-size: 0.74rem;
+    padding: 1.1rem 1.2rem;
+  }
+}

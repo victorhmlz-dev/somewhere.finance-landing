@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - status [ref=e2]: "Chapter 1 of 14: the singularity"
+  - navigation "Primary" [ref=e3]:
+    - generic [ref=e4]: somewhere
+    - list [ref=e5]:
+      - listitem [ref=e6]: Explore
+      - listitem [ref=e7]: NFFC
+      - listitem [ref=e8]: Collections
+      - listitem [ref=e9]: About
+      - listitem [ref=e10]: Connect
+  - generic:
+    - generic: 01 / 14 — the-singularity
+    - text: p = 0.00
+  - generic:
+    - generic: COORD0.000, 0.000, 0.000
+    - generic: HASH00000000
+  - generic:
+    - generic:
+      - paragraph: 01 — THE SINGULARITY
+      - heading "Everything begins somewhere." [level=2]
+    - generic:
+      - paragraph: 02 — THE BIG BANG
+      - heading "Then everything changed." [level=2]
+    - generic:
+      - heading "The universe expanded." [level=2]
+    - generic:
+      - paragraph: 03 — THE NEBULA
+      - heading "Digital matter began to form." [level=2]
+    - generic:
+      - heading "Collections emerged." [level=2]
+    - generic:
+      - heading "04 — THE GALAXIES" [level=2]
+    - generic:
+      - heading "05 — THE CHAINS" [level=2]
+    - generic:
+      - paragraph: 06 — THE UNIVERSE
+      - heading "A universe of digital ownership." [level=2]
+    - generic:
+      - heading "Across every chain." [level=2]
+    - generic:
+      - heading "somewhere" [level=2]
+      - paragraph: Discover NFTs. Across every chain.
+  - generic:
+    - generic: ETHEREUM
+    - generic: SOLANA
+    - generic: BSC
+    - generic: ROBINHOOD
+  - button "Open Next.js Dev Tools" [ref=e16] [cursor=pointer]

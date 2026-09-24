@@ -1,0 +1,156 @@
+[      59ms] [LOG] [Fast Refresh] done in 155ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     123ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     140ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     392ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   62822ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   62895ms] [LOG] [Fast Refresh] done in 7ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   83327ms] [LOG] [Fast Refresh] done in 7ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   98412ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   98601ms] [LOG] [Fast Refresh] done in 268ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  125815ms] [LOG] [Fast Refresh] done in 268ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  125865ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  125894ms] [LOG] [Fast Refresh] done in 12ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  132560ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  132572ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  160142ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  160352ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  161691ms] [LOG] [Fast Refresh] done in 254ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  178626ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  179626ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  184748ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  184786ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  185653ms] [LOG] [Fast Refresh] done in 17ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  208777ms] [LOG] [Fast Refresh] done in 17ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  208838ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  209771ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  209772ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  222319ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  222533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  223530ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  351954ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  352238ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  353904ms] [LOG] [Fast Refresh] done in 740ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  353904ms] [LOG] [Fast Refresh] done in 740ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  364715ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  365585ms] [LOG] [Fast Refresh] done in 981ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  431763ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  434345ms] [LOG] [Fast Refresh] done in 2676ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  434480ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  436405ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  438956ms] [LOG] [Fast Refresh] done in 2676ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  447203ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  447220ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  447302ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447302ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  447303ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  481132ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  482388ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  483258ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  483273ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  483274ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  483278ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  483279ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  507662ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  507736ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  507756ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  567075ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  567333ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  568175ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  568176ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  568181ms] [WARNING] [.WebGL-0x35b4001aac00] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  580386ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  580434ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  589420ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  589542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  589551ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  605953ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  606908ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  614779ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  614889ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  614905ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  615042ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615694ms] [WARNING] [.WebGL-0x35b4001ab200] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  615731ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  621446ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  621503ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  621522ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  707436ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  708266ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  746856ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  747622ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  758137ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  758546ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  775291ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  775464ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  775603ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  775623ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  775746ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776339ms] [WARNING] [.WebGL-0x35b4001aa600] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  776348ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  783396ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  783446ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  783464ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  790863ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  791610ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  791624ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  802383ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  803212ms] [LOG] [Fast Refresh] done in 751ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  803212ms] [LOG] [Fast Refresh] done in 751ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  803213ms] [LOG] [Fast Refresh] done in 751ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  803373ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glTexStorage2D: The <levels> value is greater than the maximum possible for the texture target, internal format, or dimensions. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803973ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glTexSubImage2DRobustANGLE: Level of detail outside of range. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803974ms] [WARNING] [.WebGL-0x35b400ab5400] GL_INVALID_OPERATION: glGenerateMipmap: Texture format does not support mipmap generation. @ http://localhost:3000/?chapter=10&p=0.5:0
+[  803984ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  808712ms] [LOG] [Fast Refresh] done in 751ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  808809ms] [LOG] [Fast Refresh] done in 6481ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  808873ms] [LOG] [Fast Refresh] done in 6481ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  818075ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=Xxky7hBorYFfUUhZw1i86' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  819092ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=Xxky7hBorYFfUUhZw1i86' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16348
+[  822675ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  828613ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  828673ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  828946ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

@@ -1,0 +1,51 @@
+- generic [active] [ref=f10e1]:
+  - status [ref=f10e2]: "Chapter 2 of 14: the big bang"
+  - navigation "Primary" [ref=f10e3]:
+    - generic [ref=f10e4]: somewhere
+    - list [ref=f10e5]:
+      - listitem [ref=f10e6]: Explore
+      - listitem [ref=f10e7]: NFFC
+      - listitem [ref=f10e8]: Collections
+      - listitem [ref=f10e9]: About
+      - listitem [ref=f10e10]: Connect
+  - generic:
+    - generic: 02 / 14 — the-big-bang
+    - text: p = 0.00
+  - generic:
+    - generic: COORD-0.373, -0.051, -0.839
+    - generic: HASHA1037BE4
+  - generic:
+    - generic:
+      - paragraph: 01 — THE SINGULARITY
+      - heading "Everything begins somewhere." [level=2]
+    - generic:
+      - paragraph: 02 — THE BIG BANG
+      - heading "Then everything changed." [level=2]
+    - generic:
+      - heading "The universe expanded." [level=2]
+    - generic:
+      - paragraph: 03 — THE NEBULA
+      - heading "Digital matter began to form." [level=2]
+    - generic:
+      - heading "Collections emerged." [level=2]
+    - generic:
+      - heading "04 — THE GALAXIES" [level=2]
+    - generic:
+      - heading "05 — THE CHAINS" [level=2]
+    - generic:
+      - paragraph: 06 — THE UNIVERSE
+      - heading "A universe of digital ownership." [level=2]
+    - generic:
+      - heading "Across every chain." [level=2]
+    - generic:
+      - heading "…and beyond." [level=2]
+    - generic:
+      - heading "somewhere" [level=2]
+      - paragraph: Discover NFTs. Across every chain — and beyond.
+  - generic:
+    - generic: ETHEREUM
+    - generic: SOLANA
+    - generic: BSC
+    - generic: ROBINHOOD
+  - button "Open Next.js Dev Tools" [ref=f10e16] [cursor=pointer]
+  - alert [ref=f10e20]
