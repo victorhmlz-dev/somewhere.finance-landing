@@ -60,9 +60,9 @@ export default function FinalCta() {
   return (
     <div ref={wrapperRef} className={styles.wrapper}>
       <img src="/logo-somewhere-finance.png" alt="somewhere.finance" className={styles.logo} />
-      <p className={styles.tagline}>Discover NFTs. Across every chain — and beyond.</p>
+      <p className={styles.tagline}>Across every chains, trought all the worlds.</p>
       <Link href="/explore" className={styles.cta}>
-        Explore somewhere
+        Launch Somewhere
       </Link>
     </div>
   );

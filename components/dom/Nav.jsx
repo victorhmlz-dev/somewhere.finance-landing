@@ -1,6 +1,6 @@
 import styles from "./Nav.module.css";
 
-const ITEMS = ["Explore", "NFFC", "Collections", "About", "Connect"];
+const ITEMS = ["About", "NFFC", "Whitepaper", "Roadmap"];
 
 // Navegación mínima (Fase 2: solo estructura/estilo, sin rutas todavía).
 export default function Nav() {
