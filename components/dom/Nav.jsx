@@ -1,4 +1,5 @@
 import styles from "./Nav.module.css";
+import Link from "next/link";
 
 const ITEMS = ["About", "NFFC", "Whitepaper", "Roadmap"];
 
@@ -12,6 +13,9 @@ export default function Nav() {
           <li key={item}>{item}</li>
         ))}
       </ul>
+      <Link href="/explore" className={styles.cta}>
+        Launch Dapp
+      </Link>
     </nav>
   );
 }
