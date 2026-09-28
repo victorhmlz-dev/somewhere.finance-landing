@@ -6,6 +6,7 @@ import { useFrame, useThree } from "@react-three/fiber";
 import { scrollStore } from "@/lib/scroll/scrollStore";
 import { getActProgress } from "@/lib/scroll/actProgress";
 import { PARTICLES, SINGULARITY, BIGBANG, GALAXY_MORPH, UNIVERSE_ENDING, isMobile } from "@/lib/tuning";
+import { getSingularityHold } from "./SingularityGlow";
 import "./UniverseParticleMaterial";
 
 const CLUSTER_COUNT = 5;
@@ -159,6 +160,12 @@ function ParticleLayer({ def, attrs }) {
       mat.uInhaleStrength = SINGULARITY.inhaleStrength;
       mat.uFogIntensity = chapterIndex === 0 ? SINGULARITY.fogIntensity : 0.85;
       mat.uEasePower = BIGBANG.easePower;
+      // Límite de tamaño durante la singularidad (la esfera la pinta
+      // SingularityGlow): se libera de forma progresiva al dispersarse las
+      // partículas en el Big Bang — dividir entre `hold` lo hace crecer sin
+      // salto hasta dejar de recortar.
+      const hold = getSingularityHold(chapterIndex, chapterProgress);
+      mat.uMaxPointSize = hold > 0.001 ? (SINGULARITY.pointSizeCapPx * gl.getPixelRatio()) / hold : 8192;
       mat.uGalaxyArmCount = GALAXY_MORPH.armCount;
       mat.uGalaxyTightness = GALAXY_MORPH.tightness;
       mat.uGalaxyRadius = GALAXY_MORPH.radius;

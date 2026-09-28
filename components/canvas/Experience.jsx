@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import CameraRig from "./CameraRig";
 import SceneBackground from "./SceneBackground";
 import UniverseParticles from "./scenes/UniverseParticles";
+import SingularityGlow from "./scenes/SingularityGlow";
 import Shockwave from "./scenes/Shockwave";
 import Flash from "./scenes/Flash";
 import LensStreak from "./scenes/LensStreak";
@@ -67,6 +68,10 @@ export default function Experience() {
         <CameraRig />
         <DigitalGrid />
         <UniverseParticles />
+        {/* Esfera de la singularidad (un quad): sustituye al apilamiento de
+            partículas gigantes que la formaba — ver SingularityGlow.jsx.
+            Mismo tramo de montaje que los FX del Big Bang, donde se apaga. */}
+        {showBigBangFX && <SingularityGlow />}
         {/* Flash se reutiliza en dos momentos (Big Bang y el cierre de
             "the-universe", ver Flash.jsx) — montado siempre en vez de
             condicionado a un solo grupo: es un único mesh barato

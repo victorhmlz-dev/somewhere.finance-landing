@@ -36,6 +36,7 @@ const vertexShader = /* glsl */ `
   uniform float uInhaleStart;
   uniform float uInhaleStrength;
   uniform float uEasePower;
+  uniform float uMaxPointSize;
 
   attribute vec3 aDirection;
   attribute float aSeed;
@@ -113,7 +114,10 @@ const vertexShader = /* glsl */ `
     reveal = mix(reveal, 1.0, smoothstep(0.0, 0.08, uProgress2));
 
     float sizePulse = 1.0 + 1.5 * uProgress2 * (1.0 - uProgress2);
-    gl_PointSize = aBaseSize * uSizeScale * sizePulse * uPixelRatio * (300.0 / -mvPosition.z);
+    // uMaxPointSize (px de framebuffer): solo baja durante la singularidad
+    // (ver SINGULARITY.pointSizeCapPx y SingularityGlow.jsx); el resto de
+    // actos lo dejan tan alto que no recorta nada.
+    gl_PointSize = min(aBaseSize * uSizeScale * sizePulse * uPixelRatio * (300.0 / -mvPosition.z), uMaxPointSize);
 
     vColorMix = aColorMix;
     vAlpha = reveal;
@@ -178,6 +182,7 @@ const UniverseParticleMaterial = shaderMaterial(
     uInhaleStart: SINGULARITY.inhaleStart,
     uInhaleStrength: SINGULARITY.inhaleStrength,
     uEasePower: BIGBANG.easePower,
+    uMaxPointSize: 8192,
     uColorWhite: new THREE.Color("#ffffff"),
     uColorPrimary: new THREE.Color("#5142fc"),
     uColorAccent: new THREE.Color("#af50e5"),
