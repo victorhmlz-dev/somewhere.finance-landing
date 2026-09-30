@@ -15,6 +15,7 @@ import WarpStreaks from "./scenes/WarpStreaks";
 import NftEmergence from "./scenes/NftEmergence";
 import DigitalGrid from "./scenes/DigitalGrid";
 import EcosystemField from "./scenes/EcosystemField";
+import EcosystemOrbits from "./scenes/EcosystemOrbits";
 import UniverseField from "./scenes/UniverseField";
 import PostFX from "./PostFX";
 import styles from "./Experience.module.css";
@@ -93,6 +94,9 @@ export default function Experience() {
         )}
         {CINEMATIC.lensFlare.enabled && showLensStreak && <LensStreak />}
         {showEcosystem && <EcosystemField />}
+        {/* Anillos que recorren los iconos de "The Galaxies & Chains" (los
+            iconos son DOM, ver EcosystemNodes.jsx). */}
+        {showEcosystem && <EcosystemOrbits />}
         <UniverseField />
         {showNftEmergence && <NftEmergence />}
         <PostFX />

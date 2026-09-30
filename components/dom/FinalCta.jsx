@@ -60,7 +60,7 @@ export default function FinalCta() {
   return (
     <div ref={wrapperRef} className={styles.wrapper}>
       <img src="/logo-somewhere-finance.png" alt="somewhere.finance" className={styles.logo} />
-      <p className={styles.tagline}>Across every chains, trought all the worlds.</p>
+      <p className={styles.tagline}>Across every chains, trought all worlds.</p>
       <Link href="/explore" className={styles.cta}>
         Launch Somewhere
       </Link>

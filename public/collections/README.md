@@ -1,37 +1,27 @@
-# Collection cover images — sourcing
+# Imágenes NFT — sourcing
 
 Estas imágenes son tuyas (aportadas por ti, no generadas por código ni
-descargadas de ningún sitio) — confirma que tienes derecho de uso sobre cada
-una antes de colocarla aquí. Por la regla de cumplimiento del proyecto
+descargadas de ningún sitio). Confirma que tienes derecho de uso sobre cada
+una antes de un lanzamiento real. Por la regla de cumplimiento del proyecto
 (CLAUDE.md): nunca deben ser artwork real de colecciones NFT existentes de
-terceros — usa arte propio, encargado, o con licencia clara. Si no tienes
-todavía una imagen para alguna colección, no pasa nada: mientras el archivo
-no exista, `CollectionImage.jsx` simplemente no renderiza nada para esa
-colección (la galaxia procedural se sigue viendo igual, sin huecos ni
-errores en consola).
+terceros — usa arte propio, encargado, o con licencia clara.
 
-## Archivos que faltan
+## Dónde se usan
 
-Colócalos exactamente con estos nombres, en `public/collections/`:
+Las tarjetas que emergen de la Nebula (capítulo 03,
+`components/canvas/scenes/NftEmergence.jsx`). La lista y el orden de
+aparición están en `data/nftCards.js`: todas en desktop, las 5 primeras en
+móvil. Si un archivo falta o no carga, su tarjeta simplemente no se muestra.
 
-| Archivo | Colección (data/collections.js) |
-|---|---|
-| `col-dense.jpg` | Dense Cluster #014 |
-| `col-small.jpg` | Fragment Set #392 |
-| `col-large.jpg` | Vast Archive #007 |
-| `col-luminous.jpg` | Bright Index #101 |
-| `col-chaotic.jpg` | Entropy Field #558 |
-| `col-geometric.jpg` | Grid Protocol #220 |
+## Añadir o cambiar una imagen
+
+1. Coloca el archivo aquí (`public/collections/`).
+2. Añade o edita su entrada en `data/nftCards.js`
+   (`image: "/collections/<archivo>"`).
 
 ## Formato recomendado
 
-- Cuadradas (1:1) — se muestran en un plano `Billboard` (siempre de cara a
-  cámara), un aspect ratio distinto se recortará visualmente.
-- 1024×1024 px es suficiente incluso con DPR 2 en desktop; no hace falta más.
-- `.jpg` para fotografía/arte con muchos tonos, `.png` si necesitas
-  transparencia — si usas `.png`, cambia la extensión en `data/collections.js`
-  (`image: "/collections/col-dense.png"`, etc.) a la vez que coloques el
-  archivo.
-- Sin restricciones de paleta: al ser una imagen real (no arte procedural
-  como el de `NftEmergence.jsx`), no tiene que ajustarse a los tokens de
-  `styles/tokens.css` — es contenido, no UI de marca.
+- Cuadradas (1:1): se muestran en un plano siempre de cara a cámara; otro
+  aspect ratio se deformaría.
+- 900–1024 px de lado es suficiente incluso con DPR 2.
+- `.jpg` para arte con muchos tonos; `.png` si necesitas transparencia.

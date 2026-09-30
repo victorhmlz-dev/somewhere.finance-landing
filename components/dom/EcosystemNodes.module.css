@@ -5,26 +5,6 @@
   pointer-events: none;
 }
 
-.connectorSvg {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-}
-
-.connectorPath {
-  fill: none;
-  stroke: WHITE;
-  stroke-width: 1.5;
-  opacity: 0;
-}
-
-.connectorNode {
-  fill: WHITE;
-  opacity: 0;
-}
-
 .anchor {
   position: absolute;
   top: 0;
