@@ -4,13 +4,10 @@
 // nunca jerarquía entre ellas: mismo peso visual, mismo formato (icono +
 // etiqueta, ver EcosystemNodes.jsx).
 //
-// `offset` es RELATIVO al centro de la galaxia (ECOSYSTEM_SCENE.chains.position
-// en lib/tuning.js), no una posición absoluta en el mundo — la posición real
-// de cada icono se calcula en cada frame como
-// ECOSYSTEM_SCENE.chains.position + offset + (temblor orbital, ver
-// EcosystemNodes.jsx). Así, si mueves el centro de la galaxia en tuning.js,
-// los iconos y sus conectores HUD la siguen automáticamente sin tocar este
-// archivo.
+// Posición: cada icono recorre uno de los anillos orbitales de la galaxia
+// (ECOSYSTEM_SCENE.orbits en lib/tuning.js). El anillo y la fase inicial se
+// asignan solos según el orden de este array (alternos entre anillos,
+// equiespaciados) — reordenar el array cambia quién va en cada anillo.
 //
 // `symbol`: micro-etiqueta monoespaciada (2-4 caracteres) dentro de la caja
 // HUD de cada icono — símbolo/ticker corto, no el nombre completo.
@@ -38,7 +35,6 @@ export const CHAINS = [
     coreSize: 0.16,
     colorMix: 0.1, // frío: blanco/primary
     particleScale: 1.1,
-    offset: [-4, 4, 3],
     symbol: "ETH",
   },
   {
@@ -55,7 +51,6 @@ export const CHAINS = [
     coreSize: 0.12,
     colorMix: 0.55,
     particleScale: 0.85,
-    offset: [-1, -5, 8],
     symbol: "SOL",
   },
   {
@@ -72,7 +67,6 @@ export const CHAINS = [
     coreSize: 0.26,
     colorMix: 0.4,
     particleScale: 0.85,
-    offset: [4, 3, 4],
     symbol: "BSC",
   },
   {
@@ -90,7 +84,6 @@ export const CHAINS = [
     coreSize: 0.3,
     colorMix: 0.2,
     particleScale: 0.9,
-    offset: [1, 6, 9],
     symbol: "BASE",
   },
   {
@@ -109,7 +102,6 @@ export const CHAINS = [
     coreSize: 0.18,
     colorMix: 0.6,
     particleScale: 1.0,
-    offset: [6, -3, 5],
     symbol: "OP",
   },
   {
@@ -126,7 +118,6 @@ export const CHAINS = [
     coreSize: 0.2,
     colorMix: 0.45,
     particleScale: 0.95,
-    offset: [-2, -2, 10],
     symbol: "ARB",
   },
   {
@@ -148,7 +139,6 @@ export const CHAINS = [
     coreSize: 0.22,
     colorMix: 0.68, // único que se apoya más en accent, sigue en paleta
     particleScale: 1.0,
-    offset: [7, -7, 0],
     symbol: "RH",
   },
 ];

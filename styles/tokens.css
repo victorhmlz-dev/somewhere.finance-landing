@@ -17,6 +17,9 @@
   --accent-green: #22c55e;
   --accent-cyan: #22d3ee;
 
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", monospace;
+  /* Nunito Sans para todo (cargada en app/layout.js). --font-mono se
+     mantiene como token para no tocar los componentes que la usan (HUD,
+     etiquetas, burbujas), pero ya apunta a la misma fuente. */
+  --font-sans: var(--font-nunito-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-nunito-sans), ui-sans-serif, system-ui, sans-serif;
 }
