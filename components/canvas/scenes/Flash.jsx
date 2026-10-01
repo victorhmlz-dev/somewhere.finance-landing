@@ -15,7 +15,7 @@ const UNIVERSE_ENDING_CHAPTER = 4;
 // (acto 1) y el cierre de "The Universe" (acto 4, ver UNIVERSE_ENDING en
 // lib/tuning.js) — mismo mesh/material, cada uno con su propio timing.
 // Compartido también con PostFX (aberración cromática, solo Big Bang) y
-// peakMoments.js (letterbox/lens-streak, ambos momentos) para que todos
+// peakMoments.js (lens-streak, ambos momentos) para que todos
 // disparen exactamente en el mismo instante sin duplicar el estado.
 export function getFlashPeak(chapterIndex, chapterLocalProgress) {
   if (chapterIndex === 1) {
