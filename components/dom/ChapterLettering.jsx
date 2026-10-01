@@ -7,15 +7,59 @@ import { LETTERING } from "@/lib/tuning";
 import styles from "./ChapterLettering.module.css";
 
 const clamp01 = (v) => Math.min(Math.max(v, 0), 1);
+const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
+const smoothstep = (t) => t * t * (3 - 2 * t);
 
-// Lettering de los capítulos 01-03: todo ligado al scroll (scrub), nunca a
-// una animación autónoma. Un único rAF recorre las 5 frases y escribe
+// Fija los cortes de línea de una frase tal como quedan con el espaciado
+// FINAL: mide dónde parte el navegador cada línea y vuelve a pintar el
+// texto como una línea por <span> sin salto interno (white-space: nowrap).
+// Sin esto, al animar letter-spacing durante la entrada el texto se
+// recolocaba en cada frame y alguna palabra saltaba de una línea a otra al
+// terminar (p. ej. "…takes / real form." → "…takes real / form.").
+function lockLines(phraseEl, visualEl, text) {
+  const prevSpacing = phraseEl.style.letterSpacing;
+  phraseEl.style.letterSpacing = `${LETTERING.settledLetterSpacingEm}em`;
+
+  visualEl.replaceChildren();
+  const words = text.split(" ").map((word, i) => {
+    if (i > 0) visualEl.append(" ");
+    const span = document.createElement("span");
+    span.textContent = word;
+    visualEl.append(span);
+    return span;
+  });
+
+  const lines = [];
+  let lastTop = null;
+  words.forEach((span) => {
+    const top = Math.round(span.getBoundingClientRect().top);
+    if (lastTop === null || Math.abs(top - lastTop) > 4) {
+      lines.push([]);
+      lastTop = top;
+    }
+    lines[lines.length - 1].push(span.textContent);
+  });
+
+  visualEl.replaceChildren(
+    ...lines.map((lineWords) => {
+      const line = document.createElement("span");
+      line.className = styles.line;
+      line.textContent = lineWords.join(" ");
+      return line;
+    })
+  );
+  phraseEl.style.letterSpacing = prevSpacing;
+}
+
+// Lettering de los capítulos 01-05: todo ligado al progreso del capítulo,
+// nunca a una animación autónoma. Un único rAF recorre las frases y escribe
 // opacity/transform/letterSpacing directo al DOM — cero estado de React por
-// frame. El texto vive siempre en el DOM (accesible a lectores de pantalla
-// en orden de lectura); lo que cambia por scroll es solo su presentación
-// visual.
+// frame. El texto completo vive siempre en el DOM para lectores de pantalla
+// (span srOnly); la versión visual, con los cortes de línea fijados
+// (lockLines), es aria-hidden.
 export default function ChapterLettering() {
   const refs = useRef([]);
+  const visualRefs = useRef([]);
   const reducedMotion = useRef(false);
 
   useEffect(() => {
@@ -25,6 +69,27 @@ export default function ChapterLettering() {
       reducedMotion.current = e.matches;
     };
     media.addEventListener("change", onChange);
+
+    // Cortes de línea: al montar, cuando carga la fuente (con display: swap
+    // la primera medida puede hacerse con la de respaldo) y al redimensionar.
+    const relayout = () => {
+      LETTERING.phrases.forEach((phrase, i) => {
+        const el = refs.current[i];
+        const visual = visualRefs.current[i];
+        if (el && visual && phrase.text) lockLines(el, visual, phrase.text);
+      });
+    };
+    relayout();
+    let cancelled = false;
+    document.fonts?.ready.then(() => {
+      if (!cancelled) relayout();
+    });
+    let resizeRaf;
+    const onResize = () => {
+      cancelAnimationFrame(resizeRaf);
+      resizeRaf = requestAnimationFrame(relayout);
+    };
+    window.addEventListener("resize", onResize);
 
     let rafId;
     const tick = () => {
@@ -41,7 +106,9 @@ export default function ChapterLettering() {
 
         const enter = clamp01((enterVal - phrase.enterStart) / (phrase.enterEnd - phrase.enterStart));
         const exit = clamp01((exitVal - phrase.exitStart) / (phrase.exitEnd - phrase.exitStart));
-        const opacity = enter * (1 - exit);
+        // Curvas suaves en vez de lineales: la entrada ya no arranca ni
+        // frena en seco.
+        const opacity = smoothstep(enter) * (1 - smoothstep(exit));
 
         el.style.opacity = opacity.toFixed(3);
 
@@ -49,12 +116,13 @@ export default function ChapterLettering() {
           el.style.transform = "translate(-50%, 0)";
           el.style.letterSpacing = `${LETTERING.settledLetterSpacingEm}em`;
         } else {
-          const offset = (1 - enter) * LETTERING.entryOffsetPx;
+          const settle = 1 - easeOutCubic(enter);
+          const offset = settle * LETTERING.entryOffsetPx;
           const spacing =
             LETTERING.settledLetterSpacingEm +
-            (1 - enter) * (LETTERING.entryLetterSpacingEm - LETTERING.settledLetterSpacingEm);
-          el.style.transform = `translate(-50%, ${offset}px)`;
-          el.style.letterSpacing = `${spacing}em`;
+            settle * (LETTERING.entryLetterSpacingEm - LETTERING.settledLetterSpacingEm);
+          el.style.transform = `translate(-50%, ${offset.toFixed(2)}px)`;
+          el.style.letterSpacing = `${spacing.toFixed(4)}em`;
         }
       });
 
@@ -63,7 +131,10 @@ export default function ChapterLettering() {
     rafId = requestAnimationFrame(tick);
 
     return () => {
+      cancelled = true;
       cancelAnimationFrame(rafId);
+      cancelAnimationFrame(resizeRaf);
+      window.removeEventListener("resize", onResize);
       media.removeEventListener("change", onChange);
     };
   }, []);
@@ -76,12 +147,17 @@ export default function ChapterLettering() {
           {phrase.text ? (
             <>
               {phrase.kicker && <p className={styles.kicker}>{phrase.kicker}</p>}
-              <h2 className={styles.heading}>{phrase.text}</h2>
+              <h2 className={styles.heading}>
+                <span className={styles.srOnly}>{phrase.text}</span>
+                {/* Rellenado por lockLines (efecto): React no le pone hijos,
+                    así que nunca reconcilia sobre el DOM que escribe él. */}
+                <span aria-hidden="true" ref={(el) => (visualRefs.current[i] = el)} />
+              </h2>
               {phrase.subtext && <p className={styles.subtext}>{phrase.subtext}</p>}
             </>
           ) : (
-            // Sin frase (cap. 04/05): el kicker se promueve a <h2> — sigue
-            // siendo el contenido semántico de este tramo, solo que discreto.
+            // Sin frase: el kicker se promueve a <h2> — sigue siendo el
+            // contenido semántico de este tramo, solo que discreto.
             <h2 className={styles.kickerHeading}>{phrase.kicker}</h2>
           )}
         </div>
