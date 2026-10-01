@@ -19,6 +19,14 @@
   padding-right: 1.5rem;
 }
 
+/* Móvil: el punto de luz en retrato es pequeño (cámara lejos), así que el
+   bloque puede subir hasta casi tocar su borde inferior. */
+@media (max-width: 640px) {
+  .wrapper {
+    padding-top: 54vh;
+  }
+}
+
 .logo {
   width: min(85vw, 440px);
   height: auto;

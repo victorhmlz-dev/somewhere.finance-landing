@@ -5,8 +5,8 @@ import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { scrollStore } from "@/lib/scroll/scrollStore";
 import { getActProgress } from "@/lib/scroll/actProgress";
+import { isMobile } from "@/lib/tuning";
 
-const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 const COUNT = isMobile ? 0 : 46; // en móvil se omiten: es el efecto más prescindible
 
 function randomDirection() {
