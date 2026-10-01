@@ -18,8 +18,8 @@ const EXIT_NEXT_CHAPTER = 0.06;
 const clamp01 = (v) => Math.min(Math.max(v, 0), 1);
 
 // Mensajes cortos de "chat" ambiental de la Nebula (datos y copy en
-// data/nebulaMessages.js), mismo diseño holograma técnico que el resto del
-// HUD (MicroHud.jsx). Montado durante la Nebula y el arranque del capítulo
+// data/nebulaMessages.js), con diseño de holograma técnico.
+// Montado durante la Nebula y el arranque del capítulo
 // siguiente, para que las burbujas persistentes se apaguen con suavidad en
 // vez de desaparecer de golpe al cambiar de escena.
 export default function NebulaMessages() {

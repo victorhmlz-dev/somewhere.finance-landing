@@ -36,8 +36,7 @@ export default function Experience() {
   // Montaje condicionado por capítulo: son sistemas pesados que solo hacen
   // falta cerca de su acto. useChapterIndex() solo re-renderiza al cambiar
   // de capítulo (no por frame), así que esto no rompe la regla de "sin
-  // estado de React por frame" — es exactamente el mismo hook que ya usa
-  // ChapterOverlay.
+  // estado de React por frame".
   const chapterIndex = useChapterIndex();
   const showBigBangFX = chapterIndex <= 2;
   // El streak anamórfico se reutiliza en el pico del cierre de "the-universe"
